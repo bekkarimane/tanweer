@@ -8,32 +8,32 @@
     "start": "next start"
   },
   "dependencies": {
-    "@apollo/client": "3.7.4",
-    "@auth0/nextjs-auth0": "2.1.0",
-    "@pothos/core": "3.24.0",
-    "@pothos/plugin-prisma": "3.40.0",
-    "@pothos/plugin-relay": "3.32.0",
-    "@prisma/client": "^4.8.1",
-    "aws-sdk": "2.1295.0",
-    "graphql": "16.6.0",
-    "graphql-yoga": "3.3.0",
+    "@apollo/client": "^3.8.8",
+    "@auth0/nextjs-auth0": "^3.5.0",
+    "@pothos/core": "^3.41.0",
+    "@pothos/plugin-prisma": "^3.63.0",
+    "@pothos/plugin-relay": "^3.45.1",
+    "@prisma/client": "^5.7.1",
+    "aws-sdk": "^2.1528.0",
+    "graphql": "^16.8.1",
+    "graphql-yoga": "^5.1.0",
     "next": "^14.0.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-hook-form": "7.42.1",
-    "react-hot-toast": "2.4.0"
+    "react-hook-form": "^7.49.2",
+    "react-hot-toast": "^2.4.1"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.5.3",
-    "@tailwindcss/typography": "^0.5.9",
-    "@types/node": "^18.11.18",
-    "@types/react": "^18.0.26",
-    "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.21",
-    "prisma": "^4.8.1",
-    "tailwindcss": "^3.2.4",
-    "ts-node": "^10.9.1",
-    "typescript": "^4.9.4"
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.10.6",
+    "@types/react": "^18.2.46",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "prisma": "^5.7.1",
+    "tailwindcss": "^3.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
   },
   "prisma": {
     "seed": "ts-node --transpile-only prisma/seed.ts"
